@@ -47,7 +47,7 @@ end
 #  mode 0755
 #end
 
-cookbook_file "/usr/local/rvm/bin/rvm-gem.sh" do
+cookbook_file "/etc/profile.d/rvm.sh" do
   owner "root"
   group "root"
   mode 0755
